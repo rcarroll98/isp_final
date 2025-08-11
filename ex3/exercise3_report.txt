@@ -1,0 +1,43 @@
+Exercise 3 – Format Compliance Report
+Folder: ./exercise3_films
+[FAIL] Cosmos_War_of_the_Planets.mp4
+       - container=mov (expected mp4)
+       - fps≈29.970 (expected 25)
+       - resolution=628x354 (expected 640x360)
+       - aspect=314:177 (expected 16:9)
+       - audio bitrate=317103 (expected ≤ 256000)
+       → created: Cosmos_War_of_the_Planets_formatOK.mp4
+
+[FAIL] Last_man_on_earth_1964.mov
+       - container=mov (expected mp4)
+       - video codec=prores (expected h264)
+       - fps≈23.976 (expected 25)
+       - video bitrate≈9285191 (expected 2000000–5000000)
+       - audio codec=pcm_s16le (expected aac)
+       - audio bitrate=1536000 (expected ≤ 256000)
+       → created: Last_man_on_earth_1964_formatOK.mp4
+
+[FAIL] The_Gun_and_the_Pulpit.avi
+       - container=avi (expected mp4)
+       - video codec=rawvideo (expected h264)
+       - resolution=720x404 (expected 640x360)
+       - aspect=180:101 (expected 16:9)
+       - video bitrate≈87438878 (expected 2000000–5000000)
+       - audio codec=pcm_s16le (expected aac)
+       - audio bitrate=1536000 (expected ≤ 256000)
+       → created: The_Gun_and_the_Pulpit_formatOK.mp4
+
+[FAIL] The_Hill_Gang_Rides_Again.mp4
+       - container=mov (expected mp4)
+       - video bitrate≈7537730 (expected 2000000–5000000)
+       → created: The_Hill_Gang_Rides_Again_formatOK.mp4
+
+[FAIL] Voyage_to_the_Planet_of_Prehistoric_Women.mp4
+       - container=mov (expected mp4)
+       - video codec=hevc (expected h264)
+       - fps≈29.970 (expected 25)
+       - video bitrate≈8038857 (expected 2000000–5000000)
+       - audio codec=mp3 (expected aac)
+       - audio bitrate=320000 (expected ≤ 256000)
+       → created: Voyage_to_the_Planet_of_Prehistoric_Women_formatOK.mp4
+
